@@ -4,7 +4,7 @@ body{
   background: url(../img/fondo-cocina.jpg);
 }
 .fondo-body{
-  background: rgba(0,0,0,0.25)
+  background: rgba(255,255,141,0.25)
 }
 .no-padding-x{
   padding-left: 0;
@@ -19,4 +19,47 @@ body{
 }
 .logo-icon{
   color: red;
+}
+/*--------Estilos del contenido--------*/
+/*Barra izquierda*/
+.transparencia{
+  background: rgba(141,255,255,0.7);
+}
+.search-icon{
+  background: rgb(43,166,203);
+}
+.menu-style{
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgb(43,166,203);
+}
+.menu-style:hover, .menu-style>a:hover{
+  background: rgb(43,166,203);
+  border: 0.5px rgba(0,0,0,0.25);
+  color: #fff;
+}
+.link-style{
+  color: white;
+}
+.activo{
+  background: rgb(43,166,203);
+  border: rgba(0,0,0,0.25);
+}
+.w100{
+  width: 100%;
+}
+.centrar{
+  text-align: center;
+}
+.fila-style{
+  margin-top: 20px;
+}
+.img-fav{
+  border: 2px solid rgb(43,166,203);
+}
+.img-fav:hover{
+  box-shadow: 2px 2px 2px rgb(43,166,203);
+}
+.less-padding{
+  padding-left: 5px;
+  padding-right: 5px;
 }
