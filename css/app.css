@@ -21,7 +21,7 @@ body{
   color: red;
 }
 /*--------Estilos del contenido--------*/
-/*Barra izquierda*/
+/*Columna izquierda*/
 .transparencia{
   background: rgba(141,255,255,0.7);
 }
@@ -62,4 +62,45 @@ body{
 .less-padding{
   padding-left: 5px;
   padding-right: 5px;
+}
+/*Columna derecha*/
+.card-pstyle{
+  margin-left: 10px;
+}
+.card-img{
+  display: block;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 220px;
+}
+.card-divider{
+  background: rgba(141,255,255,0.7);
+}
+.divider{
+  border-bottom: 1px solid gray;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.texta-style{
+  resize: none;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+.btn-publicar{
+  background: rgb(43,166,203);
+}
+.media-pstyle{
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 5px;
+}
+.img-comment{
+  width: 50px;
+}
+@media all and (max-width: 639px){
+  .card-pstyle{
+    margin-left: 0px;
+  }
 }
